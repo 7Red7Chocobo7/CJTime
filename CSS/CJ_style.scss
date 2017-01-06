@@ -1,0 +1,575 @@
+$Plum: rgb(62,3,61);
+$Cream: rgb(237,220,192);
+$Rose: rgb(244,172,161);
+$Gray: rgb(26,26,26);
+
+body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+	max-width: 1800000px;
+	color: $Plum;
+	font-family: Arial, sans-sarif;
+}
+#wrapper {
+	width: 100%;
+	float: left;
+
+	header {
+		width: 100%;
+
+		#w_logo {
+			width: 100%;
+			height: 98vh;
+			background-color: $Plum;
+
+			#h_main {
+				width: 50%;
+				height: 80%;
+				padding-top: 2%;
+				padding-bottom: 2%;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+				display: block;
+				position: relative;
+				z-index: 999;
+			}
+		}
+		@media screen and (max-width: 955px) {
+			#w_logo {
+				height: 95vh;
+
+				#h_main {
+					height: 98%;
+					padding-top: 1%;
+					padding-bottom: 1%;
+				}
+			}
+		}
+		@media screen and (max-width: 875px) {
+			#w_logo {
+
+				#h_main {
+					width: 70%;
+					height: 100%;
+					padding-top: 0%;
+					padding-bottom: 0%;
+				}
+			}
+		}
+		@media screen and (max-width: 755px) {
+			#w_logo {
+
+				#h_main {
+					width: 80%;
+				}
+			}
+		}
+		@media screen and (max-width: 644px) {
+			#w_loop {
+
+				#h_main {
+					width: 90%;
+				}
+			}
+		}
+		#main_nav {
+			background-color: $Rose;
+			width: 100%;
+			height: 75px;
+			margin-top: -5%;
+			position: relative;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+
+			ul {
+				width: 80%;
+				margin-right: 10%;
+				margin-right: 10%;
+				font-size: 1.4em;
+				padding: 0px;
+				padding-top: 20px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				text-align: center;
+
+				li {
+					display: inline;
+
+					a {
+						color: $Plum;
+						text-decoration: none;
+
+						#os_nav {
+							width: 100px;
+							position: relative;
+							z-index: 5;
+							display: inline;
+							margin-right: 15%;
+							margin-left: 0%;
+						}
+						#wd_nav {
+							width: 100px;
+							position: relative;
+							z-index: 5;
+							display: inline;
+							margin-right: 15%;
+						}
+						#r_nav {
+							width: 100px;
+							position: relative;
+							z-index: 5;
+							display: inline;
+							margin-right: 15%;
+						}
+						#rsvp_nav {
+							width: 100px;
+							position: relative;
+							z-index: 5;
+							display: inline;
+						}
+					}
+					@media screen and (max-width: 955px) {
+						a {
+							#os_nav {
+								margin-right: 5%;
+							}
+							#wd_nav {
+								margin-right: 5%;
+							}
+							#r_nav {
+								margin-right: 5%;
+							}
+							#rsvp_nav {
+
+							}
+						}
+					}
+					@media screen and (max-width: 618px) {
+						a {
+							#os_nav {
+								margin-right: 2%;
+							}
+							#wd_nav {
+								margin-right: 2%;
+							}
+							#r_nav {
+								margin-right: 2%;
+							}
+							#rsvp_nav {
+
+							}
+						}
+					}
+				}
+			}
+		}
+		@media screen and (max-width: 600px) {
+			#main_nav {
+				height: auto;
+
+				ul {
+					width: 90%;
+					margin-right: 5%;
+					margin-left: 5%;
+
+					li {
+
+						a {
+							#os_nav {
+								width: 50%;
+							}
+							#wd_nav {
+								width: 50%;
+							}
+							#r_nav {
+								width: 50%;
+							}
+							#rsvp_nav {
+								width: 50%;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media screen and (max-width: 495px) {
+			#main_nav {
+				margin-top: -20%;
+
+				height: auto;
+
+				ul {
+					 li {
+					 	display: block;
+					 }
+				}
+			}
+		}
+	}
+	#content {
+		width: 100%;
+		float: left;
+
+		#story {
+			width: 100%;
+			float: left;
+			height: 100vh;
+			min-height: 800px;
+
+			#owl-demo {
+    			display: none;
+    			width: 100%;
+   				height: auto;
+			}
+
+			.item {
+				display: block;
+    			width: 100%;
+   				height: auto;
+			}
+			.lvl {
+				display: block;
+    			width: 100%;
+   				height: auto;
+
+   				width: 100%;
+				float: left;
+				margin-top: 1%;
+				display: inline;
+
+				#os_head {
+					text-align: center;
+					display: block;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				p {
+					margin-right: 20%;
+					margin-left: 20%;
+					color: $Plum;
+					font-size: 1.3em;
+					font-family: Arial, sans-serif;
+				}
+				.s_icon {
+					width: 20%;
+					display: block;
+					text-align: center;
+					margin-left: auto;
+					margin-right: auto;
+				}
+			}
+			#blank {
+				width: 100%;
+				height: 100px;
+				border: solid 1px black;
+				float: left;
+			}
+		}
+		@media screen and (max-width: 790px) {
+			#story {
+				min-height: 1000px;
+
+				.lvl {
+					.s_icon {
+						width: 40%;
+					}
+				}
+			}
+		}
+		@media screen and (max-width: 656px) {
+			#story {
+				min-height: 1150px;
+
+				.lvl {
+					.s_icon {
+						width: 50%;
+					}
+				}
+			}
+		}
+		@media screen and (max-width: 500px) {
+			#story {
+				min-height: 1350px;
+
+				.lvl {
+					.s_icon {
+						width: 60%;
+					}
+				}
+			}
+		}
+		#blank {
+			width: 100%;
+			height: 50px;
+			border: solid 1px black;
+			float: left;
+			display: none;
+		}
+		#day {
+			width: 100%;
+			float: left;
+			background-color: $Cream;
+			height: auto;
+
+			#map {
+				height: 100vh;
+				width: 100%;
+				margin-top: 1%;
+				display: block;
+
+				.os_day {
+					text-align: center;
+					display: block;
+					margin-right: auto;
+					margin-left: auto;
+				}
+				p {
+					font-size: 1.3em;
+					color: $Plum;
+					margin-right: 20%;
+					margin-left: 20%;
+					float: left;
+				}
+				#map_background {
+					margin-bottom: 2%;
+					margin-left: 20%;
+					margin-right: 20%;
+
+					div {
+						width: 100%;
+						display: block;
+						margin-right: auto;
+						margin-left: auto;
+						text-align: center;
+						border-radius: 220px;
+						border: solid 10px $Plum;
+						background-color: $Plum;
+						width: 400px;
+						height: 400px;
+						overflow: hidden;
+
+						a {
+							overflow: hidden;
+
+							img {
+								text-align: center;
+								display: block;
+								margin-left: auto;
+								margin-right: auto;
+							}
+						}
+					}
+				}
+				@media screen and (max-width: 600px) {
+					#map_background {
+						margin-right: 0%;
+						margin-left: 0%;
+
+						div {
+							width: 300px;
+							height: 300px;
+						}
+					}
+				}
+			}
+			#lodg {
+				clear: both;
+				display: block;
+				margin-left: 20%;
+				margin-right: 20%;
+				
+				div {	
+					display: block;
+					text-align: center;
+					margin-left: auto;
+					margin-right: auto;
+
+					ul {
+						display: inline-block;
+						padding: 0%;
+
+						li {
+							display: block;
+							list-style: none;
+							margin-bottom: 3%;
+
+							a {
+								text-decoration: none;
+								color: $Plum;
+								font-size: 1.3em;
+							}
+						}
+
+						.spacer {
+							visibility: hidden;
+							font-size: 1.3em;
+						}
+					}
+					ul:first-of-type {
+						margin-right: 10%;
+					}
+					@media screen and (min-width: 1440px) {
+						ul {
+							margin-top: -70px;
+						}
+					}
+					@media screen and (max-width: 988px) {
+						ul {
+							display: block;
+							margin-right: 0%;
+							text-align: center;
+							margin-left: auto;
+							margin-right: auto;
+							margin-bottom: 10%;
+
+							li {
+								margin-bottom: 2%;
+							}
+						}
+						ul:first-of-type {
+							margin-right: 0%;
+						}
+						ul:last-of-type {
+							margin-bottom: 0%;
+						}
+					}
+				}
+			}
+		}
+		#registry {
+			width: 80%;
+			padding-left: 10%;
+			padding-right: 10%;
+			float: left;
+			background-color: $Rose;
+			height: 200px;
+
+			#os_reg {
+				text-align: center;
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 3%;
+			}
+			a {
+				font-size: 1.3em;
+				color: $Plum;
+				text-decoration: none;
+				text-align: center;
+				display: block;
+			}
+		}
+		#rsvp {
+			width: 100%;
+			float: left;
+
+			#vp_main {
+				height: auto;
+				margin-right: 20%;
+				margin-left: 20%;
+
+				#os_rsvp {
+				text-align: center;
+				display: block;
+				margin-right: auto;
+				margin-left: auto;
+				margin-top: 3%;
+				}
+				#confirm {
+					text-align: center;
+					display: block;
+					margin-right: auto;
+					margin-left: auto;
+					font-size: 1.4em;
+					color: $Plum;
+					width: 30%;
+
+					label {
+						text-align: left;
+						display: block;
+						//float: left;
+						clear: both;
+					}
+					input {
+						display: inline-block;
+					}
+					#text {
+						border: solid 2px $Plum;
+						border-radius: 4px;
+						height: 1em;
+						width: 180px;
+						font-size: 1em;
+						margin-bottom: 10%;
+						float: left;
+					}
+					.radio {
+						color: $Plum;
+						border: solid 2px $Plum;
+						margin-bottom: 10%;
+					}
+					#con {
+						border: solid 2px $Plum;
+						border-radius: 4px;
+						height: 1em;
+						width: 180px;
+						font-size: 1em;
+						margin-bottom: 10%;
+					}
+					#submit {
+						text-align: center;
+						display: block;
+						margin-right: auto;
+						margin-left: auto;
+						font-family: Arial, sans-serif;
+						font-size: 1.1em;
+						color: $Plum;
+						background-color: $Cream;
+						border-radius: 10px;
+						border: none;
+						padding: 5px 10px;
+						clear: both;
+						cursor: pointer;
+					}
+					select {
+						font-size: 1em;
+						color: $Plum;
+						background-color: white;
+						border: solid 2px $Plum;
+						float: left;
+						margin-bottom: 12%;
+					}
+				}
+			}
+			footer {
+
+				#return_top {
+					margin-top: 80px;
+
+					a {
+						text-align: center;
+						display: block;
+						margin-right: auto;
+						margin-left: auto;
+						background-color: $Rose;
+						width: 180px;
+						height: 90px;
+						border-radius: 90px 90px 0 0;
+
+						#re_top {
+						padding: 0px;
+						text-align: center;
+						display: block;
+						margin-right: auto;
+						margin-left: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+}
