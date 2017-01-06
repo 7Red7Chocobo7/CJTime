@@ -40,7 +40,7 @@
             "extras/ntlm_sasl_client.php"
         ]
     },
-    "license": "LGPL-2.1"
+    
 
     "phpmailer/phpmailer": "~5.2"
 }
