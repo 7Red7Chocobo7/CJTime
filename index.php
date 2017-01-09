@@ -1,5 +1,6 @@
 <?php 
-
+bool set_time_limit (20);
+  
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
