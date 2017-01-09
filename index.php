@@ -1,5 +1,5 @@
 <?php 
-set_time_limit (20);
+set_time_limit (10);
   
 require 'PHPMailerAutoload.php';
 
