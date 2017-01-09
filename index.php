@@ -1,5 +1,18 @@
 <?php 
 
+$app = require(__DIR__.'app.php');
+
+$app->register(new SilexGuzzle\GuzzleServiceProvider(), [
+   'guzzle.base_uri' => 'https://bomberman-prod.herokuapp.com/api/v1/profanity/',
+   'guzzle.timeout' => 5,
+   'guzzle.request_options' => [
+       'headers' => [
+           'Authorization' => 'Token token='.getenv('BOMBERMAN_API_KEY'),
+           'Accept' => 'application/json',
+        ],
+    ],
+]);
+
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
