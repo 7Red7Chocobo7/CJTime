@@ -1,2 +1,2 @@
 web: vendor/bin/heroku-php-apache2 
-web: vendor/bin/heroku-php-nginx
+worker: Net_Gearman-0.2.3/Net_Gearman-0.2.3/Net/Gearman/Worker.php
