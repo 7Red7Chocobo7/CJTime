@@ -41,7 +41,7 @@ if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    header("Location:https://cj-background.herokuapp.com/Thanks.html");
+    header("Location:https://7red7chocobo7.github.io/CJTime/Thanks.html");
     exit;
 }
 
