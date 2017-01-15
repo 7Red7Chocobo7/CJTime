@@ -5,7 +5,33 @@ body {
   max-width: 1800000px;
   color: #3e033d;
   font-family: Arial, sans-sarif; }
-
+#container {
+  background-color: #3e033d;
+  height: 100vh;
+  width: 100;}
+  
+    #container #TH {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;}
+      
+      #container #TH #TY {
+        width: 80%;
+        padding: 5% 5% 0% 5%;}
+     #container #TT {
+        font-size: 1.8em;
+        color: #eddcc0;
+        font-family: Arial, sans-serif;
+        text-align: center;}
+     #container #TT:hover {
+       cursor: default;}
+    #container #Tlg {
+      width: 30%;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      display: block;}
 #wrapper {
   width: 100%;
   float: left; }
