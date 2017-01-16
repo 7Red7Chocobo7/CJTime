@@ -212,20 +212,16 @@ body {
         min-height: 1150px; }
         #wrapper #content #story .lvl .s_icon {
           width: 50%; } }
-    @media screen {
-      #wrapper #content #story {
-        min-height: 1300px;} }
     @media screen and (max-width: 500px) {
       #wrapper #content #story {
         min-height: 1350px; }
         #wrapper #content #story .lvl .s_icon {
-          width: 60%; } }
-    #wrapper #content #blank {
-      width: 100%;
-      height: 50px;
-      border: solid 1px black;
-      float: left;
-      display: none; }
+          width: 60%; }
+      #wrapper #content #story #blank {
+        width: 100%;
+        height: 50px;
+        border: solid 1px black;
+        float: left; } }
     #wrapper #content #day {
       width: 100%;
       float: left;
