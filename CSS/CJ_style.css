@@ -277,8 +277,6 @@ body {
             margin-right: 0%;
             margin-left: 0%; }
             #wrapper #content #day #map #map_background div {
-              /*To make map a square*/
-              border-radius: 0px;
               width: 300px;
               height: 300px; } }
       #wrapper #content #day #lodg {
