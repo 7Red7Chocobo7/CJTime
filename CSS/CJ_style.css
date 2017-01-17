@@ -163,7 +163,8 @@ body {
       width: 100%;
       float: left;
       height: 100vh;
-      min-height: 600px; }
+      /*min-height: 600px;*/
+      padding-bottom: 20px; }
       #wrapper #content #story #owl-demo {
         display: none;
         width: 100%;
@@ -205,17 +206,17 @@ body {
         visibility: hidden;}
     @media screen and (max-width: 790px) {
       #wrapper #content #story {
-        min-height: 1000px; }
+        /*min-height: 1000px;*/ } /* */
         #wrapper #content #story .lvl .s_icon {
           width: 40%; } }
     @media screen and (max-width: 656px) {
       #wrapper #content #story {
-        min-height: 1150px; }
+        /*min-height: 1150px;*/ }
         #wrapper #content #story .lvl .s_icon {
           width: 50%; } }
     @media screen and (max-width: 500px) {
       #wrapper #content #story {
-        min-height: 1350px; }
+        /*min-height: 1350px;*/ }
         #wrapper #content #story .lvl .s_icon {
           width: 60%; }
       #wrapper #content #story #blank {
