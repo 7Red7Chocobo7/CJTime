@@ -286,12 +286,8 @@ body {
         margin-right: 20%; }
       /*To center Bed & Breakfast*/
       @media screen {
-        #wrapper #content #day #lodg ul:nth-of-type(2) {
-        padding:0px;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: center; }}
+        #wrapper #content #day #lodg ul:last-of-type {
+        margin-right: 0%; }}
         #wrapper #content #day #lodg div {
           display: block;
           text-align: center;
