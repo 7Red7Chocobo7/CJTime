@@ -350,9 +350,11 @@ body {
         margin-left: 20%; }
       /*To add space for RSVP form on smaller browers*/
       @media screen and (max-width: 595px) { 
+        #wrapper #content #rsvp {
+        padding-right: 15%; }
         #wrapper #content #rsvp #vp_main {
-        margin-right: 10%;
-        margin-left: 10%;} }
+        margin-right: 5%;
+        margin-left: 5%;} }
         #wrapper #content #rsvp #vp_main #os_rsvp {
           text-align: center;
           display: block;
