@@ -381,9 +381,10 @@ body {
             font-size: 1em;
             margin-bottom: 10%;
             float: left; }
+          /*Too center RSVP input*/
           @media screen and (max-width: 595px) {
             #wrapper #content #rsvp #vp_main #confirm #text {
-              left: -20px; } }
+              margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm .radio {
             color: #3e033d;
             border: solid 2px #3e033d;
