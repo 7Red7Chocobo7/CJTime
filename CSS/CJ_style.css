@@ -284,6 +284,11 @@ body {
         display: block;
         margin-left: 20%;
         margin-right: 20%; }
+      /*To center Bed & Breakfast*/
+      @media screen {
+        #wrapper #content #day #lodg ul:nth-of-type(2) {
+        margin: 0px;
+        padding:0px; }}
         #wrapper #content #day #lodg div {
           display: block;
           text-align: center;
