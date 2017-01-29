@@ -5,36 +5,111 @@ body {
   max-width: 1800000px;
   color: #3e033d;
   font-family: Arial, sans-sarif; }
-#container {
-  background-color: #3e033d;
-  height: 100vh;
-  width: 100%;}
-  
-    #container #TH {
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
-      text-align: center;}
-      
-      #container #TH #TY {
-        width: 80%;
-        padding: 5% 5% 0% 5%;}
-     #container #TT {
-        font-size: 1.8em;
-        color: #eddcc0;
-        font-family: Arial, sans-serif;
-        text-align: center;}
-     #container #TT:hover {
-       cursor: default;}
-    #container #Tlg {
-      width: 30%;
-      text-align: center;
-      margin-right: auto;
-      margin-left: auto;
-      display: block;}
+
 #wrapper {
   width: 100%;
   float: left; }
+  #wrapper #reg_h {
+    background-color: #3e033d;
+    padding-top: 0%;
+    float: left;
+    height: 610px;
+    margin-bottom: 200px; }
+    #wrapper #reg_h #reg_logo #reg_main {
+      width: 30%;
+      height: 30%;
+      z-index: 999;
+      position: relative;
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      padding-top: 0%; }
+    #wrapper #reg_h #reg_m {
+      text-align: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      height: 40%;
+      margin-bottom: 0%;
+      padding-bottom: 0%; }
+    @media screen and (max-width: 910px) {
+      #wrapper #reg_h #reg_logo #reg_main {
+        width: 50%;
+        height: 50%; }
+      #wrapper #reg_h #reg_m {
+        width: 50%; } }
+    @media screen and (max-width: 605px) {
+      #wrapper #reg_h #reg_m {
+        width: 70%; } }
+  @media screen and (max-width: 605px) {
+    #wrapper #reg_h {
+      margin-bottom: 100px;
+      height: 420px; } }
+  #wrapper #reg_container {
+    height: 1000px; }
+    #wrapper #reg_container #reg_content {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: block;
+      text-align: center;
+      margin-left: 20%;
+      margin-right: 20%; }
+      #wrapper #reg_container #reg_content ul {
+        padding: 0%; }
+        #wrapper #reg_container #reg_content ul li {
+          display: inline;
+          list-style: none;
+          font-size: 1.8em; }
+          #wrapper #reg_container #reg_content ul li a {
+            color: #3e033d;
+            text-decoration: none; }
+        #wrapper #reg_container #reg_content ul li:first-of-type {
+          margin-right: 10%; }
+        #wrapper #reg_container #reg_content ul li:nth-of-type(2) {
+          margin-right: 10%; }
+    @media screen and (max-width: 605px) {
+      #wrapper #reg_container #reg_content {
+        margin-top: 0px; }
+        #wrapper #reg_container #reg_content ul li {
+          display: block;
+          font-size: 2.6em;
+          margin-bottom: 20px; }
+        #wrapper #reg_container #reg_content ul li:first-of-type {
+          margin-right: 0%; }
+        #wrapper #reg_container #reg_content ul li:nth-of-type(2) {
+          margin-right: 0%; } }
+  #wrapper #home {
+    background-color: #3e033d;
+    height: 100px;
+    width: 100%;
+    border: solid #3e033d 1px; }
+    #wrapper #home #h_footer {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center;
+      margin-top: 30px;
+      width: 200px; }
+      #wrapper #home #h_footer #link {
+        text-decoration: none;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center; }
+        #wrapper #home #h_footer #link img {
+          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          text-align: center;
+          width: 200px;
+          height: 30px;
+          float: none; }
   #wrapper header {
     width: 100%; }
     #wrapper header #w_logo {
@@ -162,25 +237,20 @@ body {
     #wrapper #content #story {
       width: 100%;
       float: left;
-      height: 100%;
-      /*height: 100vh;*/
-      /*min-height: 600px;*/
-      padding-bottom: 20px; }
+      height: 100vh;
+      min-height: 800px; }
       #wrapper #content #story #owl-demo {
         display: none;
         width: 100%;
-        height: 100%;
-        /*height: auto;*/ }
+        height: auto; }
       #wrapper #content #story .item {
         display: block;
         width: 100%;
-        height: 100%;
         height: auto; }
       #wrapper #content #story .lvl {
         display: block;
         width: 100%;
-        /*height: auto;*/
-        height: 100%;
+        height: auto;
         width: 100%;
         float: left;
         margin-top: 1%;
@@ -206,28 +276,28 @@ body {
         width: 100%;
         height: 100px;
         border: solid 1px black;
-        float: left; 
-        visibility: hidden;}
+        float: left; }
     @media screen and (max-width: 790px) {
       #wrapper #content #story {
-        /*min-height: 1000px;*/ } /* */
+        min-height: 1000px; }
         #wrapper #content #story .lvl .s_icon {
           width: 40%; } }
     @media screen and (max-width: 656px) {
       #wrapper #content #story {
-        /*min-height: 1150px;*/ }
+        min-height: 1150px; }
         #wrapper #content #story .lvl .s_icon {
           width: 50%; } }
     @media screen and (max-width: 500px) {
       #wrapper #content #story {
-        /*min-height: 1350px;*/ }
+        min-height: 1350px; }
         #wrapper #content #story .lvl .s_icon {
-          width: 60%; }
-      #wrapper #content #story #blank {
-        width: 100%;
-        height: 50px;
-        border: solid 1px black;
-        float: left; } }
+          width: 60%; } }
+    #wrapper #content #blank {
+      width: 100%;
+      height: 50px;
+      border: solid 1px black;
+      float: left;
+      display: none; }
     #wrapper #content #day {
       width: 100%;
       float: left;
@@ -284,10 +354,6 @@ body {
         display: block;
         margin-left: 20%;
         margin-right: 20%; }
-      /*To center Bed & Breakfast*/
-      @media screen and (max-width: 340px) and (max-device-width: 600px) {
-        #wrapper #content #day #lodg div ul:last-of-type .os_day {
-        margin-left: -30px; }}
         #wrapper #content #day #lodg div {
           display: block;
           text-align: center;
@@ -352,11 +418,6 @@ body {
         height: auto;
         margin-right: 20%;
         margin-left: 20%; }
-      /*To add space for RSVP form on smaller browers*/
-      @media screen and (max-width: 595px) { 
-        #wrapper #content #rsvp #vp_main {
-        margin-right: 15%;
-        margin-left: 15%;} }
         #wrapper #content #rsvp #vp_main #os_rsvp {
           text-align: center;
           display: block;
@@ -385,10 +446,6 @@ body {
             font-size: 1em;
             margin-bottom: 10%;
             float: left; }
-          /*Too center RSVP input*/
-          @media screen and (max-width: 595px) {
-            #wrapper #content #rsvp #vp_main #confirm #text {
-              margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm .radio {
             color: #3e033d;
             border: solid 2px #3e033d;
@@ -400,9 +457,6 @@ body {
             width: 180px;
             font-size: 1em;
             margin-bottom: 10%; }
-          @media screen and (max-width: 595px) {
-          #wrapper #content #rsvp #vp_main #confirm #con {
-            margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm #submit {
             text-align: center;
             display: block;
