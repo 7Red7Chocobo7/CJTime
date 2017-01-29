@@ -5,6 +5,31 @@ body {
   max-width: 1800000px;
   color: #3e033d;
   font-family: Arial, sans-sarif; }
+  body #container {
+    background-color: #3e033d;
+    height: 100vh;
+    width: 100; }
+    body #container #TH {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      text-align: center; }
+      body #container #TH #TY {
+        width: 80%;
+        padding: 5% 5% 0% 5%; }
+    body #container #TT {
+      font-size: 1.8em;
+      color: #eddcc0;
+      font-family: Arial, sans-serif;
+      text-align: center; }
+    body #container #TT:hover {
+      cursor: default; }
+    body #container #Tlg {
+      width: 30%;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+      display: block; }
 
 #wrapper {
   width: 100%;
@@ -237,20 +262,20 @@ body {
     #wrapper #content #story {
       width: 100%;
       float: left;
-      height: 100vh;
-      min-height: 800px; }
+      height: 100%;
+      padding-bottom: 20px; }
       #wrapper #content #story #owl-demo {
         display: none;
         width: 100%;
-        height: auto; }
+        height: 100%; }
       #wrapper #content #story .item {
         display: block;
         width: 100%;
-        height: auto; }
+        height: 100%; }
       #wrapper #content #story .lvl {
         display: block;
         width: 100%;
-        height: auto;
+        height: 100%;
         width: 100%;
         float: left;
         margin-top: 1%;
@@ -276,28 +301,22 @@ body {
         width: 100%;
         height: 100px;
         border: solid 1px black;
-        float: left; }
+        float: left;
+        visibility: hidden; }
     @media screen and (max-width: 790px) {
-      #wrapper #content #story {
-        min-height: 1000px; }
-        #wrapper #content #story .lvl .s_icon {
-          width: 40%; } }
+      #wrapper #content #story .lvl .s_icon {
+        width: 40%; } }
     @media screen and (max-width: 656px) {
-      #wrapper #content #story {
-        min-height: 1150px; }
-        #wrapper #content #story .lvl .s_icon {
-          width: 50%; } }
+      #wrapper #content #story .lvl .s_icon {
+        width: 50%; } }
     @media screen and (max-width: 500px) {
-      #wrapper #content #story {
-        min-height: 1350px; }
-        #wrapper #content #story .lvl .s_icon {
-          width: 60%; } }
+      #wrapper #content #story .lvl .s_icon {
+        width: 60%; } }
     #wrapper #content #blank {
       width: 100%;
       height: 50px;
       border: solid 1px black;
-      float: left;
-      display: none; }
+      float: left; }
     #wrapper #content #day {
       width: 100%;
       float: left;
@@ -353,7 +372,11 @@ body {
         clear: both;
         display: block;
         margin-left: 20%;
-        margin-right: 20%; }
+        margin-right: 20%;
+        /*To center Bed & Breakfast*/ }
+        @media screen and (max-width: 340px) and (max-device-width: 600px) {
+          #wrapper #content #day #lodg div ul:last-of-type .os_day {
+            margin-left: -30px; } }
         #wrapper #content #day #lodg div {
           display: block;
           text-align: center;
@@ -413,7 +436,8 @@ body {
         display: block; }
     #wrapper #content #rsvp {
       width: 100%;
-      float: left; }
+      float: left;
+      /*To add space for RSVP form on smaller browers*/ }
       #wrapper #content #rsvp #vp_main {
         height: auto;
         margin-right: 20%;
@@ -446,6 +470,9 @@ body {
             font-size: 1em;
             margin-bottom: 10%;
             float: left; }
+          @media screen and (max-width: 595px) {
+            #wrapper #content #rsvp #vp_main #confirm #text {
+              margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm .radio {
             color: #3e033d;
             border: solid 2px #3e033d;
@@ -457,6 +484,9 @@ body {
             width: 180px;
             font-size: 1em;
             margin-bottom: 10%; }
+          @media screen and (max-width: 595px) {
+            #wrapper #content #rsvp #vp_main #confirm #con {
+              margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm #submit {
             text-align: center;
             display: block;
@@ -478,6 +508,10 @@ body {
             border: solid 2px #3e033d;
             float: left;
             margin-bottom: 12%; }
+      @media screen and (max-width: 595px) {
+        #wrapper #content #rsvp #vp_main {
+          margin-left: 15%;
+          margin-right: 15%; } }
       #wrapper #content #rsvp footer #return_top {
         margin-top: 80px; }
         #wrapper #content #rsvp footer #return_top a {
