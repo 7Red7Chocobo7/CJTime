@@ -376,7 +376,7 @@ body {
         /*To center Bed & Breakfast*/ }
         @media screen and (max-width: 340px) and (max-device-width: 600px) {
           #wrapper #content #day #lodg div ul:last-of-type .os_day {
-            margin-left: -30px; } }
+            margin-left: -40px; } }
         #wrapper #content #day #lodg div {
           display: block;
           text-align: center;
