@@ -35,7 +35,7 @@ $ages = $_POST['ageT'];
 
 $mail->Subject = 'You Have a RSVP';
 $mail->Body    = '<html><p>'.$name.' has sent you an RSVP<br>Attending:'.$attend.'<br>Dietary Restrictions: '
-  .$diet.'<br>Email contact: '.$email.'<br>Age of first child'.$age'<br>Age of second child'.$ages'<p><html>';
+  .$diet.'<br>Email contact: '.$email.'<br>Age of first child'.$age.'<br>Age of second child'.$ages.'<p><html>';
 
 $mail->AltBody = 'NA';
 
