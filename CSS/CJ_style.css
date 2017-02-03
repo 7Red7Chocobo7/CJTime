@@ -481,17 +481,17 @@ body {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
-            width: 70px;
+            width: 50px;
+            display: block;
             font-size: 1em;
-            float: left;
             margin-bottom: 10%;}
           #wrapper #content #rsvp #vp_main #confirm #age2 {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
-            width: 70px;
+            display: block;
+            width: 50px;
             font-size: 1em;
-            float: left;
             margin-bottom: 10%;}
           #wrapper #content #rsvp #vp_main #confirm #con {
             border: solid 2px #3e033d;
