@@ -477,7 +477,7 @@ body {
             color: #3e033d;
             border: solid 2px #3e033d;
             margin-bottom: 10%; }
-          #wrapper #content #rsvp #vp_main #confirm .age1 {
+          #wrapper #content #rsvp #vp_main #confirm #age1 {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
@@ -485,7 +485,7 @@ body {
             font-size: 1em;
             float: left;
             margin-bottom: 10%;}
-          #wrapper #content #rsvp #vp_main #confirm .age2 {
+          #wrapper #content #rsvp #vp_main #confirm #age2 {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
