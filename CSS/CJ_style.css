@@ -482,7 +482,7 @@ body {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
-            font-size: 1em;
+            font-size: 1.5em;
             width: 80px;
             display: block;
             font-size: 1em;
@@ -490,7 +490,7 @@ body {
           #wrapper #content #rsvp #vp_main #confirm #age2 {
             border: solid 2px #3e033d;
             border-radius: 4px;
-            height: 1em;
+            height: 1.5em;
             font-size: 1em;
             display: block;
             width: 80px;
