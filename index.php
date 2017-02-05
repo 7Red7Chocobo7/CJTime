@@ -35,7 +35,7 @@ $plus = $_POST['plus'];
 
 $mail->Subject = 'You Have a RSVP';
 $mail->Body    = '<html><p>'.$name.' has sent you an RSVP<br>Attending:'.$attend.'<br>Dietary Restrictions: '
-  .$diet.'<br>Email contact: '.$email.'<br>They will bring '.$kids. ' kids''<br>Plus '.$plus.' one person''<p><html>';
+  .$diet.'<br>Email contact: '.$email.'<br>Number of kids: '.$kids.'<br>Plus one: '.$plus.'<p><html>';
 
 $mail->AltBody = 'NA';
 
