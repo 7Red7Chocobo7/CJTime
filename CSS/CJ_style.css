@@ -482,7 +482,8 @@ body {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
-            width: 50px;
+            font-size: 1em;
+            width: 80px;
             display: block;
             font-size: 1em;
             margin-bottom: 10%;}
@@ -490,8 +491,9 @@ body {
             border: solid 2px #3e033d;
             border-radius: 4px;
             height: 1em;
+            font-size: 1em;
             display: block;
-            width: 50px;
+            width: 80px;
             font-size: 1em;
             margin-bottom: 10%;}
           #wrapper #content #rsvp #vp_main #confirm #con {
@@ -502,8 +504,6 @@ body {
             font-size: 1em;
             float: left;
             margin-bottom: 10%; }
-          #wrapper #content #rsvp #vp_main #confirm .age_left {
-            float: left; }
           @media screen and (max-width: 595px) {
             #wrapper #content #rsvp #vp_main #confirm #con {
               margin-left: -30px; } }
