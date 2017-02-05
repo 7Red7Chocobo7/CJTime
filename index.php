@@ -30,12 +30,12 @@ $name = $_POST['name'];
 $attend = $_POST['attending'];
 $diet = $_POST['diet'];
 $email = $_POST['email'];
-$age = $_POST['ageO'];
-$ages = $_POST['ageT'];
+$kids = $_POST['kids'];
+$plus = $_POST['plus'];
 
 $mail->Subject = 'You Have a RSVP';
 $mail->Body    = '<html><p>'.$name.' has sent you an RSVP<br>Attending:'.$attend.'<br>Dietary Restrictions: '
-  .$diet.'<br>Email contact: '.$email.'<br>Age of first child '.$age.'<br>Age of second child '.$ages.'<p><html>';
+  .$diet.'<br>Email contact: '.$email.'<br>They will bring '.$kids. ' kids''<br>Plus '.$plus.' one person''<p><html>';
 
 $mail->AltBody = 'NA';
 
