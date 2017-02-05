@@ -475,7 +475,7 @@ body {
               margin-left: -30px; } }
           #wrapper #content #rsvp #vp_main #confirm .radio {
             color: #3e033d;
-            float: left;
+            text-align: left;
             border: solid 2px #3e033d;
             margin-bottom: 10%; }
           #wrapper #content #rsvp #vp_main #confirm #age1 {
