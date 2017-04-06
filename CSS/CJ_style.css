@@ -8,7 +8,7 @@ body {
   body #container {
     background-color: #3e033d;
     height: 100%;
-    width: 100; }
+    width: 100%; }
   @media screen and (max-width: 600px) {
     body #container {
       height: auto; } }
