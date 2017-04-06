@@ -33,7 +33,9 @@ body {
       margin-right: auto;
       margin-left: auto;
       display: block; }
-
+    @media screen and (max-width: 600px) {
+      body #container #Tlg {
+        width: 70%; } }
 #wrapper {
   width: 100%;
   float: left; }
